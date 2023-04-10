@@ -1,2 +1,2 @@
 import streamlit as st
-st.tittle('apa ya')
+st.title('apa ya')
