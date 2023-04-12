@@ -38,3 +38,5 @@ my_data_rows = my_cur.fetchall()
 st.header("Hello from Snowflake:")
 st.dataframe(my_data_rows)
 
+add_my_fruit = st.text_input('What fruit would you like to add?','jackfruit')
+st.write('Thanks for adding ', add_my_fruit)
